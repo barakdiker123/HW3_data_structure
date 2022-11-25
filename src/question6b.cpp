@@ -84,7 +84,12 @@ template <int n> int who_is_winning(std::array<int, n> game_state, int turn) {
   }
   return turn;
 }
-
+/**
+ *
+ *
+ * @note when a = 0 the starting player has a winning strategy
+ * when a = 1 the starting player will always lose to second player best
+ * strategy */
 TEST_CASE("Insert into empty tree") {
   std::array<int, 3> game_state = init_new_state<3>();
   int a = who_is_winning<3>(game_state, 0);
