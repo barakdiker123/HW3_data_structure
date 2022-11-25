@@ -4,7 +4,16 @@ cmake_minimum_required(VERSION 3.5)
 project(baz LANGUAGES CXX VERSION 0.0.1)
 set(CMAKE_CXX_STANDARD 20)
 
-find_package(Catch2 3 REQUIRED)
+#find_package(Catch2 3 REQUIRED)
+Include(FetchContent)
+
+FetchContent_Declare(
+  Catch2
+  GIT_REPOSITORY https://github.com/catchorg/Catch2.git
+  GIT_TAG        v3.0.1 # or a later release
+)
+
+FetchContent_MakeAvailable(Catch2)
 
 add_executable(main main.cpp)
 target_include_directories(main PUBLIC include)
