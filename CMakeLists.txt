@@ -15,9 +15,9 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(Catch2)
 
-add_executable(main main.cpp)
-target_include_directories(main PUBLIC include)
-target_link_libraries(main PRIVATE Catch2::Catch2WithMain)
+#add_executable(main main.cpp)
+#target_include_directories(main PUBLIC include)
+#target_link_libraries(main PRIVATE Catch2::Catch2WithMain)
 
 
 add_executable(Queue src/Queue.cpp)
