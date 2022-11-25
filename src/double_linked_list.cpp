@@ -100,7 +100,9 @@ TEST_CASE("Search single stufff asdf asf a", "[ddl]") {
   HeadDLL head(nullptr);
   double_linked_list l1 = {1, "barak", nullptr, nullptr};
   head.insert_front(&l1);
+  INFO("barak ");
 }
+// TEST_CASE("STUFF ", "[try]") { REQUIRE(false); }
 
 //(set 'barak '(1 2 "barak"))
 //(message "Hello %s %s" "World" (nth 2 barak))
