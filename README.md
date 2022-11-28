@@ -17,11 +17,13 @@ cmake --build .
 
 ## To run test 
 ```
+cd PATH_TO_DIR/HW3_data_structure/build
 ctest 
 ```
 
 ## To run test with results
 ```
+cd PATH_TO_DIR/HW3_data_structure/build
 ctest --success
 ```
 
