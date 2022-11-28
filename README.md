@@ -9,6 +9,10 @@ To run and compile the project you should follow
 the instruction of the following commands
 
 
+![Example for data structure](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Binary_search_tree.svg/1920px-Binary_search_tree.svg.png)
+
+
+
 ## To compile the program on mac/linux OS
 ```
 cd PATH_TO_DIR/HW3_data_structure
